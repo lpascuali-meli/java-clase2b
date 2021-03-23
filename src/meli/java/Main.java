@@ -10,7 +10,7 @@ public class Main {
         FiguraGeometrica rec = new Rectangulo(2.4, 3.5);
         FiguraGeometrica tri = new Triangulo(1, 3);
         FiguraGeometrica cir = new Circulo(2.4);
-        FiguraGeometrica arr[] = {rec, tri, cir};
+        FiguraGeometrica[] arr = {rec, tri, cir};
         System.out.println(GeometricUtils.areaPromedio(arr));
     }
 }
